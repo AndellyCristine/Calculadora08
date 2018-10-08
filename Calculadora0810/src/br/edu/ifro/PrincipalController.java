@@ -82,6 +82,7 @@ public class PrincipalController implements Initializable {
         txtResultado.setText(String.valueOf(resultado));
     }
     
+    @FXML
      private void LIMPAR (ActionEvent event) {
         txtNum1.setText("");
         txtNum2.setText("");
@@ -89,6 +90,7 @@ public class PrincipalController implements Initializable {
       
     }
      
+     @FXML
      private void SAIR (ActionEvent event) {
          System.exit(0);
      }
