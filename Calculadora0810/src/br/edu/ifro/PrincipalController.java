@@ -28,7 +28,7 @@ public class PrincipalController implements Initializable {
     private Button btnMenos;
     private Button btnVezes;
     private Button btnDivisao;
-    double n1,n2,resultado;
+    
 
     /**
      * Initializes the controller class.
@@ -41,45 +41,45 @@ public class PrincipalController implements Initializable {
     @FXML
     private void SOMAR(ActionEvent event) {
         
-        n1 = Double.parseDouble(txtNum1.getText());
-        n2 = Double.parseDouble(txtNum2.getText());
+        Double n1 = Double.parseDouble(txtNum1.getText());
+        Double n2 = Double.parseDouble(txtNum2.getText());
         
-        resultado = n1+n2;
+        Double resultado = n1+n2;
         
-        txtResultado.setText(String.valueOf(resultado));
+        txtResultado.setText(resultado.toString());   
     }
 
     @FXML
     private void SUBTRAIR(ActionEvent event) {
         
-        n1 = Double.parseDouble(txtNum1.getText());
-        n2 = Double.parseDouble(txtNum2.getText());
+        Double n1 = Double.parseDouble(txtNum1.getText());
+        Double n2 = Double.parseDouble(txtNum2.getText());
         
-        resultado = n1-n2;
+        Double resultado = n1-n2;
         
-        txtResultado.setText(String.valueOf(resultado));
+        txtResultado.setText(resultado.toString());
     }
 
     @FXML
     private void MULTIPLICAR(ActionEvent event) {
         
-         n1 = Double.parseDouble(txtNum1.getText());
-         n2 = Double.parseDouble(txtNum2.getText());
+         Double n1 = Double.parseDouble(txtNum1.getText());
+         Double n2 = Double.parseDouble(txtNum2.getText());
         
-        resultado = n1*n2;
+        Double resultado = n1*n2;
         
-        txtResultado.setText(String.valueOf(resultado));
+        txtResultado.setText(resultado.toString());
     }
 
     @FXML
     private void DIVIDIR(ActionEvent event) {
         
-        n1 = Double.parseDouble(txtNum1.getText());
-        n2 = Double.parseDouble(txtNum2.getText());
+        Double n1 = Double.parseDouble(txtNum1.getText());
+        Double n2 = Double.parseDouble(txtNum2.getText());
         
-        resultado = n1/n2;
+        Double resultado = n1/n2;
         
-        txtResultado.setText(String.valueOf(resultado));
+       txtResultado.setText(resultado.toString());
     }
     
     @FXML

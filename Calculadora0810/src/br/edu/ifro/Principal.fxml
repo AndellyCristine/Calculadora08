@@ -16,10 +16,10 @@
             <Image url="@meme.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee" height="150.0" layoutX="263.0" layoutY="39.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
-        <Button fx:id="buttonMais" blendMode="EXCLUSION" layoutX="394.0" layoutY="53.0" onAction="#SOMAR" prefHeight="25.0" prefWidth="76.0" text="+">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee" height="150.0" layoutX="263.0" layoutY="39.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+        <Button fx:id="buttonMais" blendMode="EXCLUSION" layoutX="428.0" layoutY="53.0" onAction="#SOMAR" prefHeight="42.0" prefWidth="85.0" text="Soma">
          <font>
-            <Font name="Arial Bold" size="22.0" />
+            <Font name="Arial Bold" size="14.0" />
          </font></Button>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <TextField fx:id="txtNum1" layoutX="64.0" layoutY="61.0" />
@@ -40,19 +40,19 @@
             <Font name="Arial Bold" size="13.0" />
          </font>
       </Label>
-      <Button fx:id="btnMenos" blendMode="EXCLUSION" layoutX="282.0" layoutY="53.0" mnemonicParsing="false" onAction="#SUBTRAIR" prefHeight="25.0" prefWidth="76.0" text="-">
+      <Button fx:id="btnMenos" blendMode="EXCLUSION" layoutX="282.0" layoutY="53.0" mnemonicParsing="false" onAction="#SUBTRAIR" prefHeight="42.0" prefWidth="118.0" text="Subtrair">
          <font>
-            <Font name="Arial Bold" size="22.0" />
+            <Font name="Arial Bold" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="btnVezes" blendMode="EXCLUSION" layoutX="282.0" layoutY="124.0" mnemonicParsing="false" onAction="#MULTIPLICAR" prefHeight="25.0" prefWidth="76.0" text="*">
+      <Button fx:id="btnVezes" blendMode="EXCLUSION" layoutX="282.0" layoutY="124.0" mnemonicParsing="false" onAction="#MULTIPLICAR" prefHeight="42.0" prefWidth="118.0" text="Multiplicar">
          <font>
-            <Font name="Arial Bold" size="22.0" />
+            <Font name="Arial Bold" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="btnDivisao" blendMode="EXCLUSION" layoutX="394.0" layoutY="124.0" mnemonicParsing="false" onAction="#DIVIDIR" prefHeight="25.0" prefWidth="76.0" text="/">
+      <Button fx:id="btnDivisao" blendMode="EXCLUSION" layoutX="428.0" layoutY="124.0" mnemonicParsing="false" onAction="#DIVIDIR" prefHeight="42.0" prefWidth="85.0" text="Dividir">
          <font>
-            <Font name="Arial Bold" size="22.0" />
+            <Font name="Arial Bold" size="14.0" />
          </font>
       </Button>
       <Button fx:id="btnLimpar" blendMode="GREEN" layoutX="101.0" layoutY="288.0" mnemonicParsing="false" onAction="#LIMPAR" prefHeight="42.0" prefWidth="94.0" text="LIMPAR">
