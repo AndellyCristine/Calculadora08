@@ -8,10 +8,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="417.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.PrincipalController">
     <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee" height="69.0" layoutX="25.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="377.0" />
-        <Button fx:id="buttonMais" blendMode="EXCLUSION" layoutX="126.0" layoutY="195.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="76.0" text="+">
+        <Button fx:id="buttonMais" blendMode="EXCLUSION" layoutX="126.0" layoutY="195.0" onAction="#SOMAR" prefHeight="25.0" prefWidth="76.0" text="+">
          <font>
             <Font name="Arial Bold" size="22.0" />
          </font></Button>
@@ -34,27 +34,27 @@
             <Font name="Arial Bold" size="13.0" />
          </font>
       </Label>
-      <Button fx:id="btnMenos" blendMode="EXCLUSION" layoutX="35.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="-">
+      <Button fx:id="btnMenos" blendMode="EXCLUSION" layoutX="35.0" layoutY="195.0" mnemonicParsing="false" onAction="#SUBTRAIR" prefHeight="25.0" prefWidth="76.0" text="-">
          <font>
             <Font name="Arial Bold" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="btnVezes" blendMode="EXCLUSION" layoutX="214.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="*">
+      <Button fx:id="btnVezes" blendMode="EXCLUSION" layoutX="214.0" layoutY="195.0" mnemonicParsing="false" onAction="#MULTIPLICAR" prefHeight="25.0" prefWidth="76.0" text="*">
          <font>
             <Font name="Arial Bold" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="btnDivisao" blendMode="EXCLUSION" layoutX="307.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="/">
+      <Button fx:id="btnDivisao" blendMode="EXCLUSION" layoutX="307.0" layoutY="195.0" mnemonicParsing="false" onAction="#DIVIDIR" prefHeight="25.0" prefWidth="76.0" text="/">
          <font>
             <Font name="Arial Bold" size="22.0" />
          </font>
       </Button>
-      <Button blendMode="GREEN" layoutX="90.0" layoutY="336.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="94.0" text="LIMPAR">
+      <Button fx:id="btnLimpar" blendMode="GREEN" layoutX="90.0" layoutY="336.0" mnemonicParsing="false" onAction="#LIMPAR" prefHeight="42.0" prefWidth="94.0" text="LIMPAR">
          <font>
             <Font name="Arial Bold" size="13.0" />
          </font>
       </Button>
-      <Button blendMode="GREEN" layoutX="243.0" layoutY="336.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="94.0" text="SAIR">
+      <Button fx:id="btnSair" blendMode="GREEN" layoutX="243.0" layoutY="336.0" mnemonicParsing="false" onAction="#SAIR" prefHeight="42.0" prefWidth="94.0" text="SAIR">
          <font>
             <Font name="Arial Bold" size="13.0" />
          </font>
